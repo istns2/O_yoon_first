@@ -118,7 +118,7 @@ header {
 .main_visual a {
   display: block;
   height: 100%;
-  background: url(../css/misoyapicture/main.jpg) no-repeat 0 0;
+  background: url(../misoyapicture/main.jpg) no-repeat 0 0;
 }
 
 .main_visual h3 {
@@ -241,15 +241,17 @@ header {
 
 .brand{
   height: 606px;
-  background:url(../css/misoyapicture/food.jpg)
+  background:url(../misoyapicture/content03_img.jpg)
   no-repeat right center;
+  background-size: cover;
 }
 
 .brand .inner{
   height: 100%;
 }
 
-.brand_tit{height: 100%;
+.brand_tit{
+height: 100%;
 background: rgba(242,101,114,0.85);
 width:calc(33.33% - 20px);
 color: #fff;
@@ -290,4 +292,84 @@ font-weight: 500;
   font-size: 15px;
   font-weight: 900;
   margin-top: 100px;
+}
+
+/*식재료 이야기*/
+
+.food_img{float:left;}
+.food_tit{
+background-color: #eeeced;
+float: left;
+width:372px;
+height: 454px;
+padding-left: 23px;
+border-bottom: 6px solid #2e2e2e;
+}
+
+.food_tit h3{
+  position: relative;
+  font-size:36px;
+  padding-top: 52px;
+  padding-bottom: 43px;
+  line-height: 1.23;
+}
+
+.food_tit h3:after{
+  position: absolute;
+  content: "";
+  left:0;
+  bottom:0;
+  background: #000000;
+  width:41px;
+  height: 4px;
+}
+
+.food_tit p{
+  padding-top:22px;
+  padding-bottom: 68px;
+  line-height: 1.9;
+  font-size: 12px;
+}
+
+
+.sec_cont .inner a span img {
+  vertical-align: middle;
+  padding-right: 0 4px 21px ;
+}
+
+.food{
+  margin-bottom: 100px;
+}
+/*식재료 이야기 끝*/
+
+
+/*신규매장*/
+
+.new_store{
+/*margin-left: 370px;
+*/}
+
+.new_store .text_01{
+  margin: 0 auto;
+  margin-right: 15px;
+  float: left;
+}
+
+.new_store .text_01 span{
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.new_store .text_02{
+  float: left;
+  /*display: inline;*/
+  border:7.5px solid #2e2e2e;
+  width: 1076px;
+}
+
+
+.box_style02 figure{
+  float: left;
+  width:calc(33.33% - 20px);
+  margin-left: 30px;
 }
